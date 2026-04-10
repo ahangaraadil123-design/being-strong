@@ -1,0 +1,100 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    /* background: url('/src/img/gym-interior-background-of-dumbbells-on-rack-in-fitness-and-workout-room-photo.jpg') */
+}
+
+
+
+
+
+
+#navbar{
+    /* border: 2px solid red; */
+height: 110px;
+background: #333;
+display: Flex;
+align-items: center;
+justify-content: space-around;
+position: sticky;
+}
+
+
+.logo{
+    /* border: 2px solid green; */
+    height: 100px;
+    width: 100px;
+    /* margin-left: 30px; */
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+
+.ul-box{
+    /* border: 2px solid blueviolet; */
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 190px;
+}
+
+
+.ul-box a{
+    text-decoration: none;
+    color: rgb(248, 245, 245);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 30px;
+/* font-weight: bold; */
+
+
+}
+
+
+.ul-box a:hover{
+    color: orangered;
+    text-decoration: underline;
+    transition: 0.8s;
+}
+
+
+
+
+.srch{
+/* border: 2px solid black; */
+/* margin-right: 30px; */
+
+}
+
+input{
+    font-size: 20px;
+background-color: rgba(245, 245, 245, 0.697);
+padding-right: 20px;
+margin: 0px;
+}
+
+/* .h2{
+    text-align: center;
+    margin: 30px;
+    font-size: 40px;
+    font-family: cursive;
+    color: orangered;
+} */
+
+
+#section1{
+    /* border: 2px solid black; */
+height: 500px;
+margin-top: 0px;
+}
+
+img{
+    width: 100%;
+    height: 1000px;
+}
